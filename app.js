@@ -108,6 +108,17 @@ var budgetController = (function(){
             
         },
         
+        clearFields: function(){
+           var fields, fieldsArr;
+           fields = document.querySelectorAll(DOMStrings.inputDescription + ', ' + DOMStrings.inputValue);
+           fieldsArr = Array.prototype.slice.call(fields);
+           fieldsArr.forEach(function(current, index, array){
+                current.value = "";
+           });
+
+           fieldsArr[0].focus();
+           
+        },
         
         getDOMStrings: function () {
             return DOMStrings;
@@ -147,7 +158,14 @@ var budgetController = (function(){
           
           // Add item to UI
           UICtrl.addListItem(newItem, input.type); // I think newItem already contains the second parameter. Another way of doing it by only using one function argument? Wud need to change stuff both here and in addListItem method. Maybe doesn´t ocntain it, only id, des, val etc
+
+          //Clear the fields
+
+          UICtrl.clearFields();
+
           // Calculate budget
+
+
           //Display the budget on the UI  
       };
       
