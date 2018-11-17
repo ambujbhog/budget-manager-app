@@ -24,10 +24,6 @@ Fire up "app.js" in your code-editor and break things yourself!
 * Css
 
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
 ## Acknowledgments
 
 * Thanks to Jonas (Instructor) for his brilliant Udemy Course
