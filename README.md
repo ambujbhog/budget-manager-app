@@ -1,6 +1,7 @@
 # Budget Manager App
  A pure vanilla JavaScript app to monitor your expenses as well as incomes.
  
+![Chat Preview](http://i.imgur.com/lgRe8z4.png)
 
 ## Getting Started
 
@@ -9,7 +10,7 @@ Just clone or download the repository and fire up "index.html". You'll be good t
 
 ## Modifying the Code
 
-Fire up the "app.js" in your code-editor and break things yourself!
+Fire up "app.js" in your code-editor and break things yourself!
 
 
 ## Technologies Used
